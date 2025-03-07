@@ -1,11 +1,11 @@
 # TITULO DEL DESIGN DOC
 Link: [Link a este design doc](#)
 
-Author(s): Charlie L
+Author(s): Zunni & Eduardo
 
 Status: [Draft, Ready for review, In Review, Reviewed]
 
-Ultima actualización: YYYY-MM-DD
+Ultima actualización: 2025-3-6
 
 ## Contenido
 - Goals
@@ -28,20 +28,29 @@ Ultima actualización: YYYY-MM-DD
 
 ## Objetivo
 _Que y porque estamos haciendo esto?_
+Nuestro objetivo es crear un bot de telegram que ayude a las personas a realizar sus ejercicios con la tecnica correcta
+Esto debido a que no realizar las tecnicas de ejercicio de la manera correcta puede llevar a lesiones o a una perdida de eficiencia en el ejercicio
 
 _Incluye contexto para las personas que no están familiarizadas con el proyecto._
+Nuestro bot recibirá un video del usuario realizando uno de los ejercicios disponibles, nuestro sistema analizara el video y le dira al usuario que esta fallando en su tecnica
 
 _Mantenlo corto, elabora en **Background, Overview y Detailed Design**_
 
 _Añade screenshots / mocks si lo ves necesario_
 
 ## Goals
-- Goals
+- Ayuda a la gente a aprender a realizar ejercicios correctamente
+- Prevenir lesiones por mala tecnica
+- Aumentar la eficiencia de los ejercicios
+- Brindar mayor motivacion y confianza al usuario cuando realice ejercicio  
 ## Non-Goals
-- Non-Goals
+- Asegurar la disciplina del usuario
+- 
 
 ## Background
 _Cuál es el contexto de este proyecto?_
+En nuestra experiencia, realizar los ejercicios de la manera correcta ha sido una parte importante de nuestras rutinas, y sabemos que hay muchas personas que les cuesta tener una buena tecnica o no saben cual es la tecnica correcta para hacer sus ejercicios.
+
 
 _Incluye recursos, como otros design docs si es necesario_
 
@@ -81,6 +90,7 @@ _Backend…_
 
 ## Consideraciones
 _Preocupaciones / trade-offs / tech debt_
+- Verificar que la deteccion pueda ser realizada en la mayoria de tipos de cuerpo
 
 ## Métricas
 _Que información necesitas para validar antes de lanzar este feature?_
